@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# dotenv environment variables
+.env
+.env.*
+
+# production build output
+dist/
+
+# misc
+.DS_Store
+Thumbs.db
+
+# local IDE/editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
