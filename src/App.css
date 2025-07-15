@@ -82,6 +82,9 @@ textarea{
 
 /* Responsive styles for mobile */
 @media (max-width: 768px) {
+  body{
+    overflow: auto;
+  }
   main {
     flex-direction: column;
     gap: 0.5rem;
@@ -95,6 +98,7 @@ textarea{
   }
   .right{
     padding: 1rem;
+    color:white;
   }
   textarea{
     height: calc(100% - 2.8rem);
