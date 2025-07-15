@@ -89,7 +89,7 @@ textarea{
     flex-direction: column;
     gap: 0.5rem;
     padding: 0.5rem;
-    overflow: auto;
+    overflow: scroll;
   }
   .left, .right {
     flex-basis: auto;
