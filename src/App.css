@@ -83,12 +83,13 @@ textarea{
 /* Responsive styles for mobile */
 @media (max-width: 768px) {
   body{
-    overflow: auto;
+    overflow: scroll;
   }
   main {
     flex-direction: column;
     gap: 0.5rem;
     padding: 0.5rem;
+    overflow: auto;
   }
   .left, .right {
     flex-basis: auto;
